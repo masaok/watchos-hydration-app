@@ -1,9 +1,6 @@
 //
 //  ContentView.swift
 //  watchos-hydration-app Watch App
-//
-//  Created by keckadmin on 9/13/23.
-//
 
 import SwiftUI
 
