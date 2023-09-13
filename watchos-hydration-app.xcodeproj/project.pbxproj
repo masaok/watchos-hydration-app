@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF03FB1E2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF03FB1D2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF03FB232AB1A92900F7D9F8 /* watchos_hydration_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB222AB1A92900F7D9F8 /* watchos_hydration_appApp.swift */; };
+		CF03FB252AB1A92900F7D9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB242AB1A92900F7D9F8 /* ContentView.swift */; };
+		CF03FB272AB1A92B00F7D9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF03FB262AB1A92B00F7D9F8 /* Assets.xcassets */; };
+		CF03FB2A2AB1A92B00F7D9F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF03FB292AB1A92B00F7D9F8 /* Preview Assets.xcassets */; };
+		CF03FB342AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB332AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppTests.swift */; };
+		CF03FB3E2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB3D2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITests.swift */; };
+		CF03FB402AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03FB3F2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF03FB1F2AB1A92900F7D9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF03FB112AB1A92800F7D9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF03FB1C2AB1A92900F7D9F8;
+			remoteInfo = "watchos-hydration-app Watch App";
+		};
+		CF03FB302AB1A92B00F7D9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF03FB112AB1A92800F7D9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF03FB1C2AB1A92900F7D9F8;
+			remoteInfo = "watchos-hydration-app Watch App";
+		};
+		CF03FB3A2AB1A92B00F7D9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF03FB112AB1A92800F7D9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF03FB1C2AB1A92900F7D9F8;
+			remoteInfo = "watchos-hydration-app Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF03FB462AB1A92B00F7D9F8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF03FB1E2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF03FB172AB1A92900F7D9F8 /* watchos-hydration-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-hydration-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF03FB1D2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-hydration-app Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF03FB222AB1A92900F7D9F8 /* watchos_hydration_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hydration_appApp.swift; sourceTree = "<group>"; };
+		CF03FB242AB1A92900F7D9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF03FB262AB1A92B00F7D9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF03FB292AB1A92B00F7D9F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF03FB2F2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-hydration-app Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF03FB332AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hydration_app_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CF03FB392AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-hydration-app Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF03FB3D2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hydration_app_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CF03FB3F2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hydration_app_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF03FB1A2AB1A92900F7D9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB2C2AB1A92B00F7D9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB362AB1A92B00F7D9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF03FB102AB1A92800F7D9F8 = {
+			isa = PBXGroup;
+			children = (
+				CF03FB212AB1A92900F7D9F8 /* watchos-hydration-app Watch App */,
+				CF03FB322AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests */,
+				CF03FB3C2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests */,
+				CF03FB182AB1A92900F7D9F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF03FB182AB1A92900F7D9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF03FB172AB1A92900F7D9F8 /* watchos-hydration-app.app */,
+				CF03FB1D2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app */,
+				CF03FB2F2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests.xctest */,
+				CF03FB392AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF03FB212AB1A92900F7D9F8 /* watchos-hydration-app Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CF03FB222AB1A92900F7D9F8 /* watchos_hydration_appApp.swift */,
+				CF03FB242AB1A92900F7D9F8 /* ContentView.swift */,
+				CF03FB262AB1A92B00F7D9F8 /* Assets.xcassets */,
+				CF03FB282AB1A92B00F7D9F8 /* Preview Content */,
+			);
+			path = "watchos-hydration-app Watch App";
+			sourceTree = "<group>";
+		};
+		CF03FB282AB1A92B00F7D9F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF03FB292AB1A92B00F7D9F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF03FB322AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF03FB332AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppTests.swift */,
+			);
+			path = "watchos-hydration-app Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CF03FB3C2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF03FB3D2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITests.swift */,
+				CF03FB3F2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchos-hydration-app Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF03FB162AB1A92900F7D9F8 /* watchos-hydration-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF03FB472AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app" */;
+			buildPhases = (
+				CF03FB152AB1A92900F7D9F8 /* Resources */,
+				CF03FB462AB1A92B00F7D9F8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF03FB202AB1A92900F7D9F8 /* PBXTargetDependency */,
+			);
+			name = "watchos-hydration-app";
+			productName = "watchos-hydration-app";
+			productReference = CF03FB172AB1A92900F7D9F8 /* watchos-hydration-app.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CF03FB1C2AB1A92900F7D9F8 /* watchos-hydration-app Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF03FB432AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch App" */;
+			buildPhases = (
+				CF03FB192AB1A92900F7D9F8 /* Sources */,
+				CF03FB1A2AB1A92900F7D9F8 /* Frameworks */,
+				CF03FB1B2AB1A92900F7D9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchos-hydration-app Watch App";
+			productName = "watchos-hydration-app Watch App";
+			productReference = CF03FB1D2AB1A92900F7D9F8 /* watchos-hydration-app Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF03FB2E2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF03FB4A2AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch AppTests" */;
+			buildPhases = (
+				CF03FB2B2AB1A92B00F7D9F8 /* Sources */,
+				CF03FB2C2AB1A92B00F7D9F8 /* Frameworks */,
+				CF03FB2D2AB1A92B00F7D9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF03FB312AB1A92B00F7D9F8 /* PBXTargetDependency */,
+			);
+			name = "watchos-hydration-app Watch AppTests";
+			productName = "watchos-hydration-app Watch AppTests";
+			productReference = CF03FB2F2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF03FB382AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF03FB4D2AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch AppUITests" */;
+			buildPhases = (
+				CF03FB352AB1A92B00F7D9F8 /* Sources */,
+				CF03FB362AB1A92B00F7D9F8 /* Frameworks */,
+				CF03FB372AB1A92B00F7D9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF03FB3B2AB1A92B00F7D9F8 /* PBXTargetDependency */,
+			);
+			name = "watchos-hydration-app Watch AppUITests";
+			productName = "watchos-hydration-app Watch AppUITests";
+			productReference = CF03FB392AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF03FB112AB1A92800F7D9F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF03FB162AB1A92900F7D9F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF03FB1C2AB1A92900F7D9F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF03FB2E2AB1A92B00F7D9F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF03FB1C2AB1A92900F7D9F8;
+					};
+					CF03FB382AB1A92B00F7D9F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF03FB1C2AB1A92900F7D9F8;
+					};
+				};
+			};
+			buildConfigurationList = CF03FB142AB1A92800F7D9F8 /* Build configuration list for PBXProject "watchos-hydration-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF03FB102AB1A92800F7D9F8;
+			productRefGroup = CF03FB182AB1A92900F7D9F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF03FB162AB1A92900F7D9F8 /* watchos-hydration-app */,
+				CF03FB1C2AB1A92900F7D9F8 /* watchos-hydration-app Watch App */,
+				CF03FB2E2AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppTests */,
+				CF03FB382AB1A92B00F7D9F8 /* watchos-hydration-app Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF03FB152AB1A92900F7D9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB1B2AB1A92900F7D9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF03FB2A2AB1A92B00F7D9F8 /* Preview Assets.xcassets in Resources */,
+				CF03FB272AB1A92B00F7D9F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB2D2AB1A92B00F7D9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB372AB1A92B00F7D9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF03FB192AB1A92900F7D9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF03FB252AB1A92900F7D9F8 /* ContentView.swift in Sources */,
+				CF03FB232AB1A92900F7D9F8 /* watchos_hydration_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB2B2AB1A92B00F7D9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF03FB342AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF03FB352AB1A92B00F7D9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF03FB3E2AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITests.swift in Sources */,
+				CF03FB402AB1A92B00F7D9F8 /* watchos_hydration_app_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF03FB202AB1A92900F7D9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF03FB1C2AB1A92900F7D9F8 /* watchos-hydration-app Watch App */;
+			targetProxy = CF03FB1F2AB1A92900F7D9F8 /* PBXContainerItemProxy */;
+		};
+		CF03FB312AB1A92B00F7D9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF03FB1C2AB1A92900F7D9F8 /* watchos-hydration-app Watch App */;
+			targetProxy = CF03FB302AB1A92B00F7D9F8 /* PBXContainerItemProxy */;
+		};
+		CF03FB3B2AB1A92B00F7D9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF03FB1C2AB1A92900F7D9F8 /* watchos-hydration-app Watch App */;
+			targetProxy = CF03FB3A2AB1A92B00F7D9F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF03FB412AB1A92B00F7D9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF03FB422AB1A92B00F7D9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF03FB442AB1A92B00F7D9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-hydration-app Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hydration-app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF03FB452AB1A92B00F7D9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-hydration-app Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hydration-app";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF03FB482AB1A92B00F7D9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hydration-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF03FB492AB1A92B00F7D9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hydration-app";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF03FB4B2AB1A92B00F7D9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-hydration-app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-hydration-app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF03FB4C2AB1A92B00F7D9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-hydration-app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-hydration-app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF03FB4E2AB1A92B00F7D9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-hydration-app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF03FB4F2AB1A92B00F7D9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-hydration-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-hydration-app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF03FB142AB1A92800F7D9F8 /* Build configuration list for PBXProject "watchos-hydration-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF03FB412AB1A92B00F7D9F8 /* Debug */,
+				CF03FB422AB1A92B00F7D9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF03FB432AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF03FB442AB1A92B00F7D9F8 /* Debug */,
+				CF03FB452AB1A92B00F7D9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF03FB472AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF03FB482AB1A92B00F7D9F8 /* Debug */,
+				CF03FB492AB1A92B00F7D9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF03FB4A2AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF03FB4B2AB1A92B00F7D9F8 /* Debug */,
+				CF03FB4C2AB1A92B00F7D9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF03FB4D2AB1A92B00F7D9F8 /* Build configuration list for PBXNativeTarget "watchos-hydration-app Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF03FB4E2AB1A92B00F7D9F8 /* Debug */,
+				CF03FB4F2AB1A92B00F7D9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF03FB112AB1A92800F7D9F8 /* Project object */;
+}
